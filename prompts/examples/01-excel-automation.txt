@@ -1,0 +1,6 @@
+Muse, buatkan file Excel baru bernama 'Laporan_Keuangan.xlsx' di dalam folder workspace.
+Tabel harus memiliki kolom: Tanggal, Kategori Pengeluaran, Nominal, dan Keterangan.
+Tambahkan 5 contoh data fiktif pengeluaran operasional.
+Setelah file berhasil dibuat, jalankan perintah PowerShell:
+Start-Process "C:\Users\[USERNAME]\Documents\MuseWorkspace\Laporan_Keuangan.xlsx"
+agar file tersebut otomatis terbuka di layar laptop saya.

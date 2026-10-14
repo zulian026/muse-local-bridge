@@ -1,0 +1,10 @@
+Muse, buat dokumen Word baru bernama 'Notulen_Rapat.docx' di folder workspace.
+Isi dokumen tersebut dengan format notulen rapat mingguan:
+- Judul Rapat
+- Tanggal & Waktu
+- Agenda Utama
+- Poin Pembahasan
+- Action Items (Tindak Lanjut)
+Setelah selesai, jalankan perintah PowerShell:
+Start-Process "C:\Users\[USERNAME]\Documents\MuseWorkspace\Notulen_Rapat.docx"
+untuk membukanya langsung di Microsoft Word desktop saya.

@@ -1,0 +1,16 @@
+Halo Muse, saya ingin menghubungkan sesi ini langsung ke laptop saya via Tailscale dan OpenSSH.
+
+Langkah kerja:
+1. Pasang/jalankan client Tailscale di container kamu.
+2. Sambungkan ke tailnet saya dengan Auth Key berikut:
+   Auth Key: [TEMPEL_AUTH_KEY_TSKEY-AUTH-xxxx_DISINI]
+3. Buat sepasang SSH key baru:
+   ssh-keygen -t ed25519 -N "" -f ~/.ssh/id_ed25519
+4. Tampilkan public key kamu (cat ~/.ssh/id_ed25519.pub) ke dalam chat.
+
+Target laptop saya:
+- IP Tailscale: [TEMPEL_IP_TAILSCALE_LAPTOP]
+- Username: [TEMPEL_USERNAME_WINDOWS]
+- Working Directory: C:\Users\[USERNAME]\Documents\MuseWorkspace
+
+Tampilkan public key kamu sekarang agar saya pasang di laptop.

@@ -1,0 +1,6 @@
+Muse, masuk ke folder workspace.
+1. Buat folder baru bernama 'web-inventory'.
+2. Inisialisasi Git repository lokal (`git init`).
+3. Buat file 'index.html', 'style.css', dan 'app.js' dengan boilerplate antarmuka dashboard tabel inventaris modern.
+4. Buka folder proyek tersebut di Visual Studio Code di laptop saya dengan perintah:
+   code "C:\Users\[USERNAME]\Documents\MuseWorkspace\web-inventory"
